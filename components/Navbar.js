@@ -109,8 +109,12 @@ if (ref.current.classList.contains('translate-x-full')){
         </li>
       
     </ol>
-    <button class="flex mx-auto mt-16 text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg"><BsBagHeartFill className='m-1'/> Chackout</button>
+    <div className="flex">
+
+    <button className="flex mr-1  text-white bg-orange-500 border-0 py-2 px-2 focus:outline-none hover:bg-orange-600 rounded text-sm"><BsBagHeartFill className='m-1'/> Chackout</button>
+    <button className="flex mr-1 text-white bg-orange-500 border-0 py-2 px-2 focus:outline-none hover:bg-orange-600 rounded text-sm"><BsBagHeartFill className='m-1'/> Chackout</button>
       </div>
+    </div>
     </div>
   )
 }
